@@ -1,0 +1,28 @@
+{
+    "name": "jl/saloon-auth",
+    "description": "Contains example for authenticating with Saloon, based on a plugin",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "jl\\SaloonAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JL",
+            "email": "jay.lindsley@gmail.com"
+        }
+    ],
+    "require": {
+        "sammyjo20/saloon": "^0.9.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
